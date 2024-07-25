@@ -7,6 +7,15 @@ p{
     text-align: center;
 }
 
+input{
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    height: 22px;
+    border: 0;
+    margin: 10px;
+}
+
 .container {
     background-color: #390F41;
     margin: auto;
@@ -26,6 +35,12 @@ p{
 }
 
 .box-interna{
+    display: flex;
     background-color: #541B5E;
     padding: 1rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
 }

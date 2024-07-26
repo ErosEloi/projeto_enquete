@@ -1,13 +1,13 @@
 body {
-    
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-p{
+p {
     text-align: center;
 }
 
-input{
+input {
     padding: 10px;
     width: 50%;
     border-radius: 5px;
@@ -34,7 +34,7 @@ input{
     text-align: center;
 }
 
-.box-interna{
+.box-interna {
     display: flex;
     background-color: #541B5E;
     padding: 1rem;
@@ -43,4 +43,28 @@ input{
     text-align: center;
     flex-direction: column;
     width: 100%;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.escolhas {
+    
+    background-color: #4E83F4;
+    border: none;
+    border-radius: 3px;
+    margin: 30px;
+    padding: 30px;
+
+
+}
+
+.op {
+    display: flex;
+    flex-direction: column;
+    
 }
